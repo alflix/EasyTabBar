@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                  = 'EasyTabBar'
   s.version               = '1.0.0'
-  s.summary               = 'use TabBar easily!'
+  s.summary               = 'use UITabBar and UITabBarController easily!'
 
   s.homepage              = 'https://github.com/alflix/EasyNavigationBar'
   s.license               = { :type => 'Apache-2.0', :file => 'LICENSE' }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.platform              = :ios
   s.ios.deployment_target = '8.0'
 
-  s.source                = { :git => 'https://github.com/alflix/TabBar.git', :tag => "#{s.version}" }
+  s.source                = { :git => 'https://github.com/alflix/EasyNavigationBar.git', :tag => "#{s.version}" }
   s.ios.framework         = 'UIKit'
   s.source_files          = 'Source/*.swift'
 
