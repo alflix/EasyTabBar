@@ -25,17 +25,30 @@ class BulgeTabBar: UITabBar {
     override func setItems(_ items: [UITabBarItem]?, animated: Bool) {
         super.setItems(items, animated: animated)
         var tabBarButtonIndex = -1
-        for subview in subviews where NSStringFromClass(type(of: subview)) == "UITabBarButton" {
+        for tabbarButton in subviews where NSStringFromClass(type(of: tabbarButton)) == "UITabBarButton" {
             tabBarButtonIndex += 1
             if bulgeIndexs.contains(tabBarButtonIndex) {
                 if let button = indexToButton[tabBarButtonIndex] {
-                    button.frame = subview.frame
+                    button.frame = tabbarButton.frame
                     button.frame.origin.y -= offsetY
                     addSubview(button)
                 }
             }
         }
         layoutSubviews()
+    }
+
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        if #available(iOS 13, *) {
+            // fix https://github.com/Tencent/QMUI_iOS/issues/740
+            let tabBarButtons = self.subviews.filter { NSStringFromClass(type(of: $0)) == "UITabBarButton" }
+            for tabbarButton in tabBarButtons {
+                if let label = tabbarButton.subviews.filter({ NSStringFromClass(type(of: $0)) == "UITabBarButtonLabel" }).first {
+                    label.sizeToFit()
+                }
+            }
+        }
     }
 
     // 处理超出区域点击无效的问题
