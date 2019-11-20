@@ -7,27 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		522FE9C82368269D00A8BB4A /* UIKitExtendsion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FE9C72368269D00A8BB4A /* UIKitExtendsion.swift */; };
-		522FE9CA236827B900A8BB4A /* FoundationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FE9C9236827B900A8BB4A /* FoundationExtension.swift */; };
-		522FE9CC236828ED00A8BB4A /* NavigationAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522FE9CB236828ED00A8BB4A /* NavigationAppearance.swift */; };
 		5231174A224220BB009DA11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52311749224220BB009DA11E /* AppDelegate.swift */; };
 		5231174C224220BB009DA11E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5231174B224220BB009DA11E /* ViewController.swift */; };
 		5231174F224220BB009DA11E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5231174D224220BB009DA11E /* Main.storyboard */; };
 		52311751224220BC009DA11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52311750224220BC009DA11E /* Assets.xcassets */; };
 		52311754224220BC009DA11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52311752224220BC009DA11E /* LaunchScreen.storyboard */; };
-		52754C0F235861C7006ADF6A /* UINavigationBar+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52754C0A235861C7006ADF6A /* UINavigationBar+UI.swift */; };
-		52754C10235861C7006ADF6A /* UIViewController+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52754C0B235861C7006ADF6A /* UIViewController+Swizzle.swift */; };
-		52754C11235861C7006ADF6A /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52754C0C235861C7006ADF6A /* UIViewController+Navigation.swift */; };
-		52754C12235861C7006ADF6A /* UINavigationController+Swizzle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52754C0D235861C7006ADF6A /* UINavigationController+Swizzle.swift */; };
-		52754C13235861C7006ADF6A /* EasyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52754C0E235861C7006ADF6A /* EasyNavigationController.swift */; };
+		52460678238450C3007F4255 /* BulgeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460673238450C3007F4255 /* BulgeTabBar.swift */; };
+		52460679238450C3007F4255 /* UITabBarItem+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460674238450C3007F4255 /* UITabBarItem+.swift */; };
+		5246067A238450C3007F4255 /* UITabBar+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460675238450C3007F4255 /* UITabBar+.swift */; };
+		5246067B238450C3007F4255 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460676238450C3007F4255 /* Extensions.swift */; };
+		5246067C238450C3007F4255 /* UITabBarController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460677238450C3007F4255 /* UITabBarController+.swift */; };
 		52754C152358686D006ADF6A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52754C142358686D006ADF6A /* SecondViewController.swift */; };
 		6AE55BD82B17E80F5D34CCD7 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33725A8DB54E01249AF6D6C /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		522FE9C72368269D00A8BB4A /* UIKitExtendsion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtendsion.swift; sourceTree = "<group>"; };
-		522FE9C9236827B900A8BB4A /* FoundationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtension.swift; sourceTree = "<group>"; };
-		522FE9CB236828ED00A8BB4A /* NavigationAppearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationAppearance.swift; sourceTree = "<group>"; };
 		52311746224220BB009DA11E /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52311749224220BB009DA11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5231174B224220BB009DA11E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,11 +29,11 @@
 		52311750224220BC009DA11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52311753224220BC009DA11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52311755224220BC009DA11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52754C0A235861C7006ADF6A /* UINavigationBar+UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+UI.swift"; sourceTree = "<group>"; };
-		52754C0B235861C7006ADF6A /* UIViewController+Swizzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Swizzle.swift"; sourceTree = "<group>"; };
-		52754C0C235861C7006ADF6A /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
-		52754C0D235861C7006ADF6A /* UINavigationController+Swizzle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Swizzle.swift"; sourceTree = "<group>"; };
-		52754C0E235861C7006ADF6A /* EasyNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EasyNavigationController.swift; sourceTree = "<group>"; };
+		52460673238450C3007F4255 /* BulgeTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BulgeTabBar.swift; sourceTree = "<group>"; };
+		52460674238450C3007F4255 /* UITabBarItem+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarItem+.swift"; sourceTree = "<group>"; };
+		52460675238450C3007F4255 /* UITabBar+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+.swift"; sourceTree = "<group>"; };
+		52460676238450C3007F4255 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		52460677238450C3007F4255 /* UITabBarController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+.swift"; sourceTree = "<group>"; };
 		52754C142358686D006ADF6A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		D54361C755514BBAE1B9D54D /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.debug.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		D6DE19B8AED172C0429F6A09 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
@@ -88,7 +82,7 @@
 		52311748224220BB009DA11E /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				52754C09235861C7006ADF6A /* Source */,
+				52460672238450C3007F4255 /* Source */,
 				52311749224220BB009DA11E /* AppDelegate.swift */,
 				5231174B224220BB009DA11E /* ViewController.swift */,
 				52754C142358686D006ADF6A /* SecondViewController.swift */,
@@ -100,17 +94,14 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
-		52754C09235861C7006ADF6A /* Source */ = {
+		52460672238450C3007F4255 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				52754C0A235861C7006ADF6A /* UINavigationBar+UI.swift */,
-				52754C0B235861C7006ADF6A /* UIViewController+Swizzle.swift */,
-				52754C0C235861C7006ADF6A /* UIViewController+Navigation.swift */,
-				52754C0D235861C7006ADF6A /* UINavigationController+Swizzle.swift */,
-				52754C0E235861C7006ADF6A /* EasyNavigationController.swift */,
-				522FE9CB236828ED00A8BB4A /* NavigationAppearance.swift */,
-				522FE9C72368269D00A8BB4A /* UIKitExtendsion.swift */,
-				522FE9C9236827B900A8BB4A /* FoundationExtension.swift */,
+				52460673238450C3007F4255 /* BulgeTabBar.swift */,
+				52460674238450C3007F4255 /* UITabBarItem+.swift */,
+				52460675238450C3007F4255 /* UITabBar+.swift */,
+				52460676238450C3007F4255 /* Extensions.swift */,
+				52460677238450C3007F4255 /* UITabBarController+.swift */,
 			);
 			name = Source;
 			path = ../../Source;
@@ -259,16 +250,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52754C152358686D006ADF6A /* SecondViewController.swift in Sources */,
-				52754C13235861C7006ADF6A /* EasyNavigationController.swift in Sources */,
-				52754C12235861C7006ADF6A /* UINavigationController+Swizzle.swift in Sources */,
+				5246067A238450C3007F4255 /* UITabBar+.swift in Sources */,
+				52460679238450C3007F4255 /* UITabBarItem+.swift in Sources */,
 				5231174C224220BB009DA11E /* ViewController.swift in Sources */,
-				522FE9C82368269D00A8BB4A /* UIKitExtendsion.swift in Sources */,
-				52754C11235861C7006ADF6A /* UIViewController+Navigation.swift in Sources */,
-				52754C10235861C7006ADF6A /* UIViewController+Swizzle.swift in Sources */,
 				5231174A224220BB009DA11E /* AppDelegate.swift in Sources */,
-				522FE9CA236827B900A8BB4A /* FoundationExtension.swift in Sources */,
-				52754C0F235861C7006ADF6A /* UINavigationBar+UI.swift in Sources */,
-				522FE9CC236828ED00A8BB4A /* NavigationAppearance.swift in Sources */,
+				5246067C238450C3007F4255 /* UITabBarController+.swift in Sources */,
+				52460678238450C3007F4255 /* BulgeTabBar.swift in Sources */,
+				5246067B238450C3007F4255 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
