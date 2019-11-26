@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5231174A224220BB009DA11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52311749224220BB009DA11E /* AppDelegate.swift */; };
-		5231174C224220BB009DA11E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5231174B224220BB009DA11E /* ViewController.swift */; };
+		5231174C224220BB009DA11E /* NearbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5231174B224220BB009DA11E /* NearbyViewController.swift */; };
 		52311751224220BC009DA11E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52311750224220BC009DA11E /* Assets.xcassets */; };
 		52311754224220BC009DA11E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52311752224220BC009DA11E /* LaunchScreen.storyboard */; };
 		52460678238450C3007F4255 /* BulgeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460673238450C3007F4255 /* BulgeTabBar.swift */; };
@@ -17,13 +17,18 @@
 		5246067B238450C3007F4255 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460676238450C3007F4255 /* Extensions.swift */; };
 		5246067C238450C3007F4255 /* UITabBarController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460677238450C3007F4255 /* UITabBarController+.swift */; };
 		52CE97B3238D11F600CDC81B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CE97B2238D11F600CDC81B /* UIView+Extensions.swift */; };
+		52CE97B5238D19CB00CDC81B /* LayoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CE97B4238D19CB00CDC81B /* LayoutButton.swift */; };
+		52CE97B7238D217600CDC81B /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CE97B6238D217600CDC81B /* ActivityViewController.swift */; };
+		52CE97B9238D225400CDC81B /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CE97B8238D225400CDC81B /* SendViewController.swift */; };
+		52CE97BB238D225E00CDC81B /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CE97BA238D225E00CDC81B /* MessageViewController.swift */; };
+		52CE97BD238D226600CDC81B /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CE97BC238D226600CDC81B /* MineViewController.swift */; };
 		52E630C7238D06490051D1A2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E630C6238D06490051D1A2 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52311746224220BB009DA11E /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52311749224220BB009DA11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5231174B224220BB009DA11E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5231174B224220BB009DA11E /* NearbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyViewController.swift; sourceTree = "<group>"; };
 		52311750224220BC009DA11E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52311753224220BC009DA11E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52311755224220BC009DA11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +38,11 @@
 		52460676238450C3007F4255 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		52460677238450C3007F4255 /* UITabBarController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+.swift"; sourceTree = "<group>"; };
 		52CE97B2238D11F600CDC81B /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		52CE97B4238D19CB00CDC81B /* LayoutButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutButton.swift; sourceTree = "<group>"; };
+		52CE97B6238D217600CDC81B /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		52CE97B8238D225400CDC81B /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
+		52CE97BA238D225E00CDC81B /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		52CE97BC238D226600CDC81B /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
 		52E630C6238D06490051D1A2 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F33725A8DB54E01249AF6D6C /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -71,7 +81,11 @@
 				52460672238450C3007F4255 /* Source */,
 				52311749224220BB009DA11E /* AppDelegate.swift */,
 				52E630C6238D06490051D1A2 /* TabBarController.swift */,
-				5231174B224220BB009DA11E /* ViewController.swift */,
+				5231174B224220BB009DA11E /* NearbyViewController.swift */,
+				52CE97B6238D217600CDC81B /* ActivityViewController.swift */,
+				52CE97B8238D225400CDC81B /* SendViewController.swift */,
+				52CE97BA238D225E00CDC81B /* MessageViewController.swift */,
+				52CE97BC238D226600CDC81B /* MineViewController.swift */,
 				52311750224220BC009DA11E /* Assets.xcassets */,
 				52311752224220BC009DA11E /* LaunchScreen.storyboard */,
 				52311755224220BC009DA11E /* Info.plist */,
@@ -83,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				52CE97B2238D11F600CDC81B /* UIView+Extensions.swift */,
+				52CE97B4238D19CB00CDC81B /* LayoutButton.swift */,
 				52460673238450C3007F4255 /* BulgeTabBar.swift */,
 				52460674238450C3007F4255 /* UITabBarItem+.swift */,
 				52460675238450C3007F4255 /* UITabBar+.swift */,
@@ -171,12 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52CE97B7238D217600CDC81B /* ActivityViewController.swift in Sources */,
+				52CE97BB238D225E00CDC81B /* MessageViewController.swift in Sources */,
 				5246067A238450C3007F4255 /* UITabBar+.swift in Sources */,
+				52CE97BD238D226600CDC81B /* MineViewController.swift in Sources */,
+				52CE97B5238D19CB00CDC81B /* LayoutButton.swift in Sources */,
 				52E630C7238D06490051D1A2 /* TabBarController.swift in Sources */,
 				52460679238450C3007F4255 /* UITabBarItem+.swift in Sources */,
 				52CE97B3238D11F600CDC81B /* UIView+Extensions.swift in Sources */,
-				5231174C224220BB009DA11E /* ViewController.swift in Sources */,
+				5231174C224220BB009DA11E /* NearbyViewController.swift in Sources */,
 				5231174A224220BB009DA11E /* AppDelegate.swift in Sources */,
+				52CE97B9238D225400CDC81B /* SendViewController.swift in Sources */,
 				5246067C238450C3007F4255 /* UITabBarController+.swift in Sources */,
 				52460678238450C3007F4255 /* BulgeTabBar.swift in Sources */,
 				5246067B238450C3007F4255 /* Extensions.swift in Sources */,

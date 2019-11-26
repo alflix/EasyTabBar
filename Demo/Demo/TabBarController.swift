@@ -3,7 +3,7 @@
 //  CircleQ
 //
 //  Created by John on 2018/9/21.
-//  Copyright © 2018 Ganguo. All rights reserved.
+//  Copyright © 2018 John. All rights reserved.
 //
 
 import UIKit
@@ -31,28 +31,28 @@ private extension TabBarController {
     }
 
     func addChilds() {
-        add(child: UIViewController(),
+        add(child: NearbyViewController(),
             imageName: "icon_tab_nearby",
             selectImageName: "icon_tab_nearby_hl",
             title: titles[0],
             navigationClass: UINavigationController.self)
-        add(child: UIViewController(),
+        add(child: ActivityViewController(),
             imageName: "icon_tab_activity",
             selectImageName: "icon_tab_activity_hl",
             title: titles[1],
             navigationClass: UINavigationController.self)
-        add(child: UIViewController(),
+        add(child: SendViewController(),
             imageName: "icon_tab_publish",
             selectImageName: "icon_tab_publish_hl",
             title: titles[2],
-            isBulge: true,
+            bulgeOffsetY: -10,
             navigationClass: UINavigationController.self)
-        add(child: UIViewController(),
+        add(child: MessageViewController(),
             imageName: "icon_tab_message",
             selectImageName: "icon_tab_message_hl",
             title: titles[3],
             navigationClass: UINavigationController.self)
-        add(child: UIViewController(),
+        add(child: MineViewController(),
             imageName: "icon_tab_mine",
             selectImageName: "icon_tab_mine_hl",
             title: titles[4],
