@@ -13,11 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        window?.backgroundColor = .white
-        UIViewController.swizzleViewWillAppear()
-        UINavigationController.swizzle()
-        NavigationBarConfig.debugMode = true
-        NavigationBarConfig.backIconImage = UIImage(named: "0")
+        window = UIWindow(frame: UIScreen.main.bounds)
+        guard let window = window else { return false }
+        window.backgroundColor = .white
+
+        window.rootViewController = TabBarController()
+        window.makeKeyAndVisible()
+
         return true
     }
 }
