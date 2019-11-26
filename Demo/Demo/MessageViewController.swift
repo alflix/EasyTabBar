@@ -3,7 +3,7 @@
 //  Demo
 //
 //  Created by John on 2019/11/26.
-//  Copyright © 2019 Ganguo. All rights reserved.
+//  Copyright © 2019  John. All rights reserved.
 //
 
 import UIKit

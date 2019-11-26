@@ -45,7 +45,6 @@ private extension TabBarController {
             imageName: "icon_tab_publish",
             selectImageName: "icon_tab_publish_hl",
             title: titles[2],
-            bulgeOffsetY: -10,
             navigationClass: UINavigationController.self)
         add(child: MessageViewController(),
             imageName: "icon_tab_message",
