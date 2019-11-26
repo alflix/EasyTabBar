@@ -16,6 +16,7 @@
 		5246067A238450C3007F4255 /* UITabBar+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460675238450C3007F4255 /* UITabBar+.swift */; };
 		5246067B238450C3007F4255 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460676238450C3007F4255 /* Extensions.swift */; };
 		5246067C238450C3007F4255 /* UITabBarController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52460677238450C3007F4255 /* UITabBarController+.swift */; };
+		52CE97B3238D11F600CDC81B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CE97B2238D11F600CDC81B /* UIView+Extensions.swift */; };
 		52E630C7238D06490051D1A2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E630C6238D06490051D1A2 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		52460675238450C3007F4255 /* UITabBar+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBar+.swift"; sourceTree = "<group>"; };
 		52460676238450C3007F4255 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		52460677238450C3007F4255 /* UITabBarController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITabBarController+.swift"; sourceTree = "<group>"; };
+		52CE97B2238D11F600CDC81B /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		52E630C6238D06490051D1A2 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F33725A8DB54E01249AF6D6C /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,6 +82,7 @@
 		52460672238450C3007F4255 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				52CE97B2238D11F600CDC81B /* UIView+Extensions.swift */,
 				52460673238450C3007F4255 /* BulgeTabBar.swift */,
 				52460674238450C3007F4255 /* UITabBarItem+.swift */,
 				52460675238450C3007F4255 /* UITabBar+.swift */,
@@ -171,6 +174,7 @@
 				5246067A238450C3007F4255 /* UITabBar+.swift in Sources */,
 				52E630C7238D06490051D1A2 /* TabBarController.swift in Sources */,
 				52460679238450C3007F4255 /* UITabBarItem+.swift in Sources */,
+				52CE97B3238D11F600CDC81B /* UIView+Extensions.swift in Sources */,
 				5231174C224220BB009DA11E /* ViewController.swift in Sources */,
 				5231174A224220BB009DA11E /* AppDelegate.swift in Sources */,
 				5246067C238450C3007F4255 /* UITabBarController+.swift in Sources */,

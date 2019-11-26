@@ -43,8 +43,9 @@ private extension TabBarController {
             navigationClass: UINavigationController.self)
         add(child: UIViewController(),
             imageName: "icon_tab_publish",
-            selectImageName: "icon_tab_publish",
+            selectImageName: "icon_tab_publish_hl",
             title: titles[2],
+            isBulge: true,
             navigationClass: UINavigationController.self)
         add(child: UIViewController(),
             imageName: "icon_tab_message",
@@ -56,20 +57,6 @@ private extension TabBarController {
             selectImageName: "icon_tab_mine_hl",
             title: titles[4],
             navigationClass: UINavigationController.self)
-    }
-}
-
-extension TabBarController {
-    func switchBackToLastTab() {
-        selectedIndex = lastIndex
-    }
-
-    @objc func switchBackToFirstTab() {
-        selectedIndex = 0
-    }
-
-    @objc func switchBackToChatTab() {
-        selectedIndex = 3
     }
 }
 
