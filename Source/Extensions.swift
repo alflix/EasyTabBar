@@ -96,7 +96,6 @@ private extension UIControl {
 internal let ClosureHandlerSelector = Selector(("handle"))
 
 internal class ClosureHandler<T: AnyObject>: NSObject {
-
     internal var handler: ((T) -> Void)?
     internal weak var control: T?
 

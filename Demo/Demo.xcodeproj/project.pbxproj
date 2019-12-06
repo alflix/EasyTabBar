@@ -345,9 +345,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ganguo.hk.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = dev_all;
+				PROVISIONING_PROFILE_SPECIFIER = dev_com_all;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -365,9 +365,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ganguo.hk.Demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = dev_all;
+				PROVISIONING_PROFILE_SPECIFIER = dev_com_all;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

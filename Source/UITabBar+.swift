@@ -3,7 +3,7 @@
 //  EasyTabBar
 //
 //  Created by John on 2019/3/19.
-//  Copyright © 2019 Ganguo. All rights reserved.
+//  Copyright © 2019 John. All rights reserved.
 //
 
 import UIKit
@@ -34,7 +34,7 @@ public extension UITabBar {
         static var appearance: String = "com.tabBar.appearance"
     }
 
-    public var appearance: TabBarAppearance? {
+    var appearance: TabBarAppearance? {
         get {
             if let value = associatedObject(forKey: &AssociatedKey.appearance) as? TabBarAppearance { return value }
             return nil

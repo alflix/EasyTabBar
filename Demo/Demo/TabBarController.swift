@@ -18,8 +18,7 @@ final class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-        addChilds()
-        delegate = self
+        addChilds2()
     }
 }
 
@@ -57,10 +56,32 @@ private extension TabBarController {
             title: titles[4],
             navigationClass: UINavigationController.self)
     }
-}
 
-extension TabBarController: UITabBarControllerDelegate {
-    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
-        return true
+    func addChilds2() {
+        add(child: NearbyViewController(),
+            imageName: "icon_tab_home",
+            selectImageName: "icon_tab_home_hl",
+            title: "首页",
+            navigationClass: UINavigationController.self)
+        add(child: ActivityViewController(),
+            imageName: "icon_tab_category",
+            selectImageName: "icon_tab_category_hl",
+            title: "分类",
+            navigationClass: UINavigationController.self)
+        add(child: SendViewController(),
+            imageName: "icon_tab_fashion",
+            selectImageName: "icon_tab_fashion_hl",
+            title: "潮流日本",
+            navigationClass: UINavigationController.self)
+        add(child: MessageViewController(),
+            imageName: "icon_tab_shopBag",
+            selectImageName: "icon_tab_shopBag_hl",
+            title: "购物袋",
+            navigationClass: UINavigationController.self)
+        add(child: MineViewController(),
+            imageName: "icon_tab_me",
+            selectImageName: "icon_tab_me_hl",
+            title: "我",
+            navigationClass: UINavigationController.self)
     }
 }
