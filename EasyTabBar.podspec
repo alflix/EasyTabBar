@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = 'EasyTabBar'
-  s.version               = '1.0.0'
+  s.version               = '0.9.0'
   s.summary               = 'use UITabBar and UITabBarController easily!'
 
   s.homepage              = 'https://github.com/alflix/EasyNavigationBar'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.social_media_url      = 'https://github.com/alflix'
 
   s.platform              = :ios
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source                = { :git => 'https://github.com/alflix/EasyNavigationBar.git', :tag => "#{s.version}" }
   s.ios.framework         = 'UIKit'
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.module_name           = 'TabBar'
   s.requires_arc          = true
 
-  s.swift_version         = '4.2'
+  s.swift_version         = '5.1'
   s.pod_target_xcconfig   = { 'SWIFT_VERSION' => '5.1' }
   s.static_framework      = true
   
