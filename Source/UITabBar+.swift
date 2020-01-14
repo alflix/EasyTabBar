@@ -63,6 +63,13 @@ public extension UITabBar {
                 let appearance = standardAppearance.copy()
                 appearance.stackedLayoutAppearance.normal.iconColor = unselectedTintColor
                 appearance.stackedLayoutAppearance.normal.titleTextAttributes[.foregroundColor] = unselectedTintColor
+
+                appearance.inlineLayoutAppearance.normal.iconColor = unselectedTintColor
+                appearance.inlineLayoutAppearance.normal.titleTextAttributes[.foregroundColor] = unselectedTintColor
+
+                appearance.compactInlineLayoutAppearance.normal.iconColor = unselectedTintColor
+                appearance.compactInlineLayoutAppearance.normal.titleTextAttributes[.foregroundColor] = unselectedTintColor
+
                 standardAppearance = appearance
             } else if #available(iOS 10.0, *) {
                 unselectedItemTintColor = unselectedTintColor
@@ -74,6 +81,13 @@ public extension UITabBar {
                 let appearance = standardAppearance.copy()
                 appearance.stackedLayoutAppearance.selected.iconColor = selectedTintColor
                 appearance.stackedLayoutAppearance.selected.titleTextAttributes[.foregroundColor] = selectedTintColor
+
+                appearance.inlineLayoutAppearance.selected.iconColor = selectedTintColor
+                appearance.inlineLayoutAppearance.selected.titleTextAttributes[.foregroundColor] = selectedTintColor
+
+                appearance.compactInlineLayoutAppearance.selected.iconColor = selectedTintColor
+                appearance.compactInlineLayoutAppearance.selected.titleTextAttributes[.foregroundColor] = selectedTintColor
+
                 standardAppearance = appearance
             } else {
                 tintColor = selectedTintColor
@@ -85,6 +99,13 @@ public extension UITabBar {
                 let appearance = standardAppearance.copy()
                 appearance.stackedLayoutAppearance.normal.titleTextAttributes[.font] = titleFont
                 appearance.stackedLayoutAppearance.selected.titleTextAttributes[.font] = titleFont
+
+                appearance.inlineLayoutAppearance.normal.titleTextAttributes[.font] = titleFont
+                appearance.inlineLayoutAppearance.selected.titleTextAttributes[.font] = titleFont
+
+                appearance.compactInlineLayoutAppearance.normal.titleTextAttributes[.font] = titleFont
+                appearance.compactInlineLayoutAppearance.selected.titleTextAttributes[.font] = titleFont
+
                 standardAppearance = appearance
             } else if #available(iOS 10.0, *) {
                 UITabBarItem.appearance().setTitleTextAttributes([.font: titleFont], for: .normal)
